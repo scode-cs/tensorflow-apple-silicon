@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.scode</groupId>
+  <artifactId>tensorflow-basic</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <exec.mainClass>com.scode.tensorflow.HelloTensorFlow</exec.mainClass>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+    <java.version>17</java.version>
+  </properties>
+
+  <dependencies>
+
+    <!-- https://mvnrepository.com/artifact/org.tensorflow/tensorflow-core-platform -->
+    <dependency>
+      <groupId>org.tensorflow</groupId>
+      <artifactId>tensorflow-core-platform</artifactId>
+      <version>1.0.0-rc.1</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/com.johnsnowlabs.nlp/tensorflow-cpu -->
+<!--    <dependency>-->
+<!--      <groupId>com.johnsnowlabs.nlp</groupId>-->
+<!--      <artifactId>tensorflow-cpu_2.13</artifactId>-->
+<!--      <version>0.4.4</version>-->
+<!--    </dependency>-->
+
+<!--    &lt;!&ndash; https://mvnrepository.com/artifact/com.johnsnowlabs.nlp/tensorflow-gpu &ndash;&gt;-->
+<!--    <dependency>-->
+<!--      <groupId>com.johnsnowlabs.nlp</groupId>-->
+<!--      <artifactId>tensorflow-gpu_2.13</artifactId>-->
+<!--      <version>0.4.4</version>-->
+<!--    </dependency>-->
+
+
+  </dependencies>
+
+</project>
